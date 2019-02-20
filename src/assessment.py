@@ -16,12 +16,12 @@ print(Product)
 ### Task 2
 N = input('Enter number: ')
 if N % 2 == 1:
-    print('weird')
-elif N in range (2,6):
+    print('weird it is odd number')
+elif N is N > 2 and N < 6:
     print('Not Weird')
-elif N in range(6,21):
-    pritn('weird')
-elif N in range(20, 101):
+elif N is N >= 6 and N > 21:
+    print('weird')
+elif N is N >= 20 and n < 101:
     print('Not Weird')
 else:
     print('weird')
